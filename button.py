@@ -21,7 +21,6 @@ location_button = ReplyKeyboardMarkup(
 menu = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="🗒 Ro'yxatdan o'tish"), KeyboardButton(text="🤖 Bot haqida malumot")],
-        [KeyboardButton(text="☎️ Contact admin"), KeyboardButton(text="✉️ Adminga xabar yuborish")],
         [KeyboardButton(text="📍 Location"), KeyboardButton(text="💻 Kurslar haqida")]
     ],
     resize_keyboard=True,
